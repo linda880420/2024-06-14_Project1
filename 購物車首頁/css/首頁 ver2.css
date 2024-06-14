@@ -1,0 +1,124 @@
+body button.carousel-control-next,
+.carousel-control-prev {
+    width: 5%;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #73634B;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%) translateY(100%);
+    width: 100%;
+    background-color: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    display: none;
+}
+
+/* .carousel-inner {
+    margin-bottom: 152px;
+    overflow: unset;
+} */
+.carousel-inner {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.carousel-inner p {
+    width: 100%;
+    padding: 0 30px;
+    height: 48px;
+}
+
+.carousel-inner h5 {
+    height: 40px;
+}
+
+.line-mark::before {
+    position: absolute;
+    content: "";
+    width: 20%;
+    height: 5px;
+    background-color: #8aac9c;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+
+.text-area {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 100px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    color: #595A5B;
+}
+
+.text-area2 {
+    max-height: 85px;
+    -webkit-line-clamp: 3;
+}
+
+.text-area-3 {
+    max-height: 150px;
+    -webkit-line-clamp: 4;
+}
+.text-area-4 {
+    max-height: 100px;
+    -webkit-line-clamp:2;
+}
+
+.form-check .form-check-input {
+    float: none
+}
+
+.form-check {
+    min-height: auto;
+    padding-left: 0;
+    margin: 0;
+}
+
+.t-c-primary {
+    color: #016241
+}
+
+#map {
+    filter: saturate(.5);
+}
+
+.fa {
+    color: #f2f2f2;
+}
+
+.checked {
+    color: #016241;
+}
+
+.bi {
+    color: #464646;
+}
+
+.form-check-input#warm:checked {
+    background-color: orange;
+    border-color: orange;
+}
+
+.form-check-input#hot:checked {
+    background-color: rgb(180, 0, 0);
+    border-color: rgb(180, 0, 0);
+}
+
+.form-check-input#cold:checked {
+    background-color: rgb(110, 207, 220);
+    border-color: rgb(110, 207, 220);
+}
+
+#like:checked+.form-check-label .bi-heart-fill {
+    color: rgb(180, 0, 0);
+}
